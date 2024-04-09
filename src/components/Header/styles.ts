@@ -30,9 +30,13 @@ export const HeaderNavigation = styled.nav`
 
     color: var(--text-secondary);
 
-    li:first-child {
-      color: var(--text-primary);
-      font-weight: bold;
+    li {
+      cursor: pointer;
+
+      &:first-child {
+        color: var(--text-primary);
+        font-weight: bold;  
+      }
     }
   }
 `
