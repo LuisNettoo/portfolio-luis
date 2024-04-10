@@ -47,6 +47,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     line-height: 1;
     min-height: 100vh;
+    background-color: var(--surface-background);
   }
   
   ol, ul {

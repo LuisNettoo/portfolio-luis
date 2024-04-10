@@ -9,6 +9,7 @@ export const HeaderContainer = styled.header`
   background-color: var(--surface-background);
 
   box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.5);
+  margin-bottom: 15px;
 `
 
 export const HeaderLogo = styled.h1`
