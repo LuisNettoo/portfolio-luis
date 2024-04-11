@@ -36,6 +36,14 @@ function About() {
             <img src={javascriptIcon} alt="Icone do Javascript" />
             <img src={reactIcon} alt="Icone do React" />
           </div>
+
+          <h3>Sobre mim</h3>
+          <h2>Eu sou um estudante de desenvolvimento, que busco pela minha primeira oportunidade profissional.</h2>
+
+          <p>Além de desenvolvimento, gosto muito de jogos, filmes, musicas e de sair com meus amigos. No tempo livre gosto de jogar jogos cooperativos e competitivos e também ir ao cinema para ver os grandes lançamentos.</p>
+          <div>
+            <a href="#"><img src={readCvIcon} alt="Papel de curriculo" />Meu Curriculo</a>
+          </div>
         </section>
       </AboutMeContainer>
       </>

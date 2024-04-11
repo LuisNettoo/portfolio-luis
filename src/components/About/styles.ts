@@ -86,16 +86,67 @@ export const AboutMeContainer = styled.section`
   margin: 10%;
   border-radius: 1rem;
   gap: 5%;
-  padding: 72px;
+  padding: 5%;
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.60);
   
   img {
-    width: 30rem;
+    width: 438px;
   }
 
   section {
+    div {
+      display: flex;
+      gap: 1.5rem;
+
+      margin-bottom: 2rem;
+    }
+
     img {
       width: 24px;
+    }
+
+    h3 {
+      font-family: var(--font-title);
+      font-size: 1rem;
+      color: var(--secondary-color);
+
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-family: var(--font-main);
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 32px;
+      color: var(--text-primary);
+
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-family: var(--font-main);
+      color: var(--text-secondary);
+      font-size: 1rem;
+      line-height: 24px;
+    
+      margin-bottom: 2rem;
+    }
+
+    a {
+      padding: 1rem 1.5rem;
+      border-radius: .5rem;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .5rem;
+
+      font-family: var(--font-main);
+      font-size: 1rem;
+      font-weight: 550;
+      color: var(--text-primary);
+
+      background-color: var(--primary-color-500);
     }
   }
   
