@@ -87,7 +87,7 @@ export const AboutMeContainer = styled.section`
   border-radius: 1rem;
   gap: 5%;
   padding: 5%;
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.60);
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.60);
   
   img {
     width: 438px;
