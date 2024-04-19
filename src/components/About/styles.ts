@@ -83,7 +83,7 @@ export const AboutMeContainer = styled.section`
   display: flex;
   justify-content: space-around;
   background-color: var(--surface-primary);
-  margin: 10%;
+  margin: 10% 10% 5% 10%;
   border-radius: 1rem;
   gap: 5%;
   padding: 5%;

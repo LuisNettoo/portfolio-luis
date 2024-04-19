@@ -2,6 +2,7 @@ import styled from "styled-components"
 import About from "./components/About"
 import Header from "./components/Header"
 import { GlobalStyles } from "./styles/global"
+import Projects from "./components/Projects"
 
 const MainContainer = styled.main`
   display: flex;
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <MainContainer>
         <About />
+        <Projects />
       </MainContainer>
       <GlobalStyles />
     </>
