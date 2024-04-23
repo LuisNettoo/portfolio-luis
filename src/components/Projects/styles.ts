@@ -5,7 +5,9 @@ export const ProjectsContainer = styled.section`
   align-items: center;
   flex-direction: column;
 
-  h2 {
+  padding: 0 10%;
+
+  > h2 {
     font-size: 1rem;
     font-family: var(--font-title);
     color: var(--secondary-color);
@@ -13,14 +15,42 @@ export const ProjectsContainer = styled.section`
     margin-bottom: 0.5rem;
   }
 
-  p {
+  > p {
     font-family: var(--font-main);
     font-size: 1.5rem;
     color: var(--text-primary);
   }
 
-  section {
+  div.cards__container {
     display: flex;
-    gap: 1rem;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+  }
+
+  button {
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+    background-color: var(--surface-secondary);
+    color: var(--text-primary);
+
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    cursor: pointer;
+    transition: all ease 250ms;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
   }
 `
