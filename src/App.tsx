@@ -3,6 +3,7 @@ import About from "./components/About"
 import Header from "./components/Header"
 import { GlobalStyles } from "./styles/global"
 import Projects from "./components/Projects"
+import FormContact from "./components/FormContact"
 
 const MainContainer = styled.main`
   display: flex;
@@ -16,6 +17,7 @@ function App() {
       <MainContainer>
         <About />
         <Projects />
+        <FormContact />
       </MainContainer>
       <GlobalStyles />
     </>
