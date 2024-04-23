@@ -75,7 +75,23 @@ export const AboutContainer = styled.section`
   }
 
   > img {
-    min-width: 488px;
+    width: 488px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+    padding: 96px 7%;
+
+    > img {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    section {
+      p {
+        text-align: justify;
+      }
+    }
   }
 `
 
@@ -149,5 +165,17 @@ export const AboutMeContainer = styled.section`
       background-color: var(--primary-color-500);
     }
   }
-  
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+
+    > img {
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+  }
 `

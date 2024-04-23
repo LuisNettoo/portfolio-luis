@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-  max-width: 28%;
+  width: 28%;
   height: 344px;
   padding: 1.5rem;
   background-color: var(--surface-primary);

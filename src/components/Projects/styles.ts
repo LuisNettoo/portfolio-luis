@@ -53,4 +53,14 @@ export const ProjectsContainer = styled.section`
       filter: brightness(0.8);
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    > div {
+      flex-wrap: wrap;
+
+      div {
+        width: 100%;
+      }
+    }
+  }
 `

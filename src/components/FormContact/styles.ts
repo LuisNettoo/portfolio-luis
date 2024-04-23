@@ -118,4 +118,25 @@ export const Container = styled.section`
       background-color: var(--primary-color-500);
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 8%;
+    border-radius: 0;
+
+    > section {
+      width: 100%;
+      margin-bottom: 48px;
+
+      > img {
+        margin-bottom: 40px;
+      }
+    }
+
+    form {
+      width: 100%;
+    }
+  }
 `
