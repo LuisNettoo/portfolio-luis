@@ -75,7 +75,6 @@ export const AboutContainer = styled.section`
   }
 
   > img {
-    width: 488px;
   }
 
   @media only screen and (max-width: 768px) {
