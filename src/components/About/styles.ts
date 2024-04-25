@@ -75,6 +75,7 @@ export const AboutContainer = styled.section`
   }
 
   > img {
+    min-width: 488px;
   }
 
   @media only screen and (max-width: 768px) {
@@ -82,7 +83,8 @@ export const AboutContainer = styled.section`
     padding: 96px 7%;
 
     > img {
-      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
       margin-bottom: 24px;
     }
 
@@ -171,6 +173,7 @@ export const AboutMeContainer = styled.section`
     margin: 0;
     border-radius: 0;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    margin-bottom: 48px;
 
     > img {
       max-width: 100%;

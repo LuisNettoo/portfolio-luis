@@ -30,9 +30,9 @@ function FormContact() {
         </div>
       </section>
       <form>
-        <input type="text" placeholder="Nome" />
-        <input type="email" placeholder="E-mail" />
-        <textarea name="" id="" cols={30} rows={10} placeholder="Sua mensagem" />
+        <input type="text" placeholder="Nome" required/>
+        <input type="email" placeholder="E-mail" required/>
+        <textarea cols={30} rows={10} placeholder="Sua mensagem" required/>
       
         <button type="submit">
           Envie sua mensagem <img src={arrowRightIcon} alt="Seta para a direita" />

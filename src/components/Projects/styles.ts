@@ -55,6 +55,8 @@ export const ProjectsContainer = styled.section`
   }
 
   @media only screen and (max-width: 768px) {
+    margin-bottom: 48px;
+
     > div {
       flex-wrap: wrap;
 
@@ -62,5 +64,10 @@ export const ProjectsContainer = styled.section`
         width: 100%;
       }
     }
+
+    > p {
+      text-align: center;
+    }
+    
   }
 `

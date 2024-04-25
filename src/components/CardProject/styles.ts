@@ -6,6 +6,9 @@ export const CardContainer = styled.div`
   padding: 1.5rem;
   background-color: var(--surface-primary);
   border-radius: 1rem;
+  border: 1px solid transparent;
+
+  transition: all ease 250ms;
 
   margin-top: 40px;
 
@@ -44,5 +47,10 @@ export const CardContainer = styled.div`
     font-family: var(--font-main);
     color: var(--text-secondary);
     font-size: 1rem;
+  }
+
+  &:hover {
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0px 0px 5px 2px var(--secondary-color);
   }
 `

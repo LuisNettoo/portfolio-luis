@@ -80,7 +80,7 @@ export const Container = styled.section`
 
     input, textarea {
       border-radius: 0.5rem;
-      border: 0;
+      border: 1px solid transparent;
       outline: none;
       padding: 12px;
 
@@ -91,6 +91,10 @@ export const Container = styled.section`
       color: var(--text-primary);
 
       background-color: var(--surface-background);
+
+      &:focus {
+        border: 1px solid var(--secondary-color);
+      }
     }
 
     textarea {
