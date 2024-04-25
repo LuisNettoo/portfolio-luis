@@ -1,3 +1,6 @@
+import { FormEventHandler, useRef } from "react"
+import emailjs from "@emailjs/browser"
+
 import { Container } from "./styles"
 
 import profileImg from "../../assets/profile.svg"
@@ -8,6 +11,24 @@ import logoInstagramIcon from "../../assets/logo-instagram.svg"
 
 
 function FormContact() {
+  const form = useRef<HTMLFormElement>(null)
+
+  const sendEmail: FormEventHandler<HTMLFormElement> = (event) => {
+    event.preventDefault()
+
+    emailjs
+      .sendForm("service_0utbtuk", "template_ryl44yh", form.current, {
+        publicKey: "cMacAY6mylxJ4KLrP",
+      })
+      .then(() => {
+        console.log("Mensagem enviada!")
+      },
+      (error: any) => {
+        console.log("Ocorreu uma falha...", error.text)
+      })
+      
+  }
+
   return (
     <Container>
       <section>
@@ -29,10 +50,10 @@ function FormContact() {
           </a>
         </div>
       </section>
-      <form>
-        <input type="text" placeholder="Nome" required/>
-        <input type="email" placeholder="E-mail" required/>
-        <textarea cols={30} rows={10} placeholder="Sua mensagem" required/>
+      <form ref={form} onSubmit={sendEmail}>
+        <input type="text" placeholder="Nome" required name="user_name"/>
+        <input type="email" placeholder="E-mail" required name="user_email"/>
+        <textarea cols={30} rows={10} placeholder="Sua mensagem" required name="message"/>
       
         <button type="submit">
           Envie sua mensagem <img src={arrowRightIcon} alt="Seta para a direita" />
