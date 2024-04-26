@@ -11,7 +11,7 @@ import logoInstagramIcon from "../../assets/logo-instagram.svg"
 
 
 function FormContact() {
-  const form = useRef<HTMLFormElement>(null)
+  const form = useRef(new HTMLFormElement)
 
   const sendEmail: FormEventHandler<HTMLFormElement> = (event) => {
     event.preventDefault()
