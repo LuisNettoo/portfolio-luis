@@ -13,7 +13,7 @@ export const AboutContainer = styled.section`
     font-size: 2rem;
 
     background: -webkit-linear-gradient(rgba(153,85,232,1), rgba(0,212,255,1));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
     margin-bottom: 2rem;
