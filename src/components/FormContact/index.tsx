@@ -1,4 +1,4 @@
-import { FormEventHandler, useRef, useState } from "react";
+import {useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Container } from "./styles";
 import profileImg from "../../assets/profile.svg";
