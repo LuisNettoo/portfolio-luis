@@ -20,7 +20,7 @@ function About() {
         <p>Estudo programação 6 meses e no atual momento estou participando de um projeto chamado Jovem Tech. Estou me especializando na parte do Front-end usando tecnologias como HTML, CSS e React.</p>
       
         <div>
-            <a href="#"><img src={readCvIcon} alt="Papel de curriculo" />Curriculo</a>
+            <a href="https://drive.google.com/uc?export=download&id=1HpokcbpN0hRu5_c5bo8dP6chaMuobIk4"><img src={readCvIcon} alt="Papel de curriculo" />Curriculo</a>
             <a href="#">Entre em contato <img src={arrowRightIcon} alt="Seta para a direita" /></a>
         </div>
       </section>
@@ -42,7 +42,7 @@ function About() {
 
           <p>Além de desenvolvimento, gosto muito de jogos, filmes, musicas e de sair com meus amigos. No tempo livre gosto de jogar jogos cooperativos e competitivos e também ir ao cinema para ver os grandes lançamentos.</p>
           <div>
-            <a href="#"><img src={readCvIcon} alt="Papel de curriculo" />Meu Curriculo</a>
+            <a href="https://drive.google.com/uc?export=download&id=1HpokcbpN0hRu5_c5bo8dP6chaMuobIk4"><img src={readCvIcon} alt="Papel de curriculo" />Meu Curriculo</a>
           </div>
         </section>
       </AboutMeContainer>
