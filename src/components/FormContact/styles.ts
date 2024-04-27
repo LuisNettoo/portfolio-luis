@@ -45,7 +45,6 @@ export const Container = styled.section`
     }
 
     > div {
-      margin: 72px;
       display: flex;
       gap: 0.5rem;
 
@@ -143,6 +142,7 @@ export const Container = styled.section`
     }
 
     form {
+      margin: 48px 72px;
       width: 100%;
     }
   }

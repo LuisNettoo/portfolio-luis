@@ -56,7 +56,8 @@ export const ProjectsContainer = styled.section`
   }
 
   @media only screen and (max-width: 768px) {
-    margin-bottom: 48px;
+    margin: 48px 0;
+    padding: 0 7%;
 
     > div {
       flex-wrap: wrap;

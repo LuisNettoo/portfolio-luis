@@ -82,7 +82,9 @@ export const AboutContainer = styled.section`
 
   @media only screen and (max-width: 768px) {
     flex-direction: column-reverse;
-    padding: 96px 7%;
+    padding: 0 7%;
+
+    margin: 10% 0;
 
     > img {
       min-width: 100%;
@@ -176,13 +178,12 @@ export const AboutMeContainer = styled.section`
   @media only screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    margin: 0;
     border-radius: 0;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     margin-bottom: 48px;
 
     > img {
-      max-width: 100%;
+      max-width: 90%;
       margin-bottom: 40px;
     }
   }
