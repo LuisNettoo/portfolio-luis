@@ -5,7 +5,8 @@ export const ProjectsContainer = styled.section`
   align-items: center;
   flex-direction: column;
 
-  padding: 0 10%;
+  max-width: 1280px;
+  margin: 72px auto;
 
   > h2 {
     font-size: 1rem;

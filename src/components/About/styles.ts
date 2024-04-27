@@ -3,8 +3,10 @@ import styled from "styled-components"
 export const AboutContainer = styled.section`
   display: flex;
   align-items: center;
-  padding: 96px 10%;
   gap: 10%;
+
+  max-width: 1280px;
+  margin: 96px auto;
 
   background-color: var(--surface-background);
 
@@ -100,17 +102,21 @@ export const AboutMeContainer = styled.section`
   display: flex;
   justify-content: space-around;
   background-color: var(--surface-primary);
-  margin: 10% 10% 5% 10%;
   border-radius: 1rem;
   gap: 5%;
-  padding: 5%;
   box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.60);
+
+  max-width: 1280px;
+  margin: 40px auto;
   
-  img {
+  > img {
+    margin: 5%;
     width: 438px;
   }
 
   section {
+    margin: 5%;
+
     div {
       display: flex;
       gap: 1.5rem;

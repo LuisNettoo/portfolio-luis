@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  padding: 24px 80px;
+  padding: 24px 0;
+  max-width: 1280px;
+  margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
 
   background-color: var(--surface-background);
 
-  box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.5);
   margin-bottom: 15px;
 
   > img {

@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin: 10%;
   display: flex;
   align-items: center;
   background-color: var(--surface-primary);
   border-radius: 1rem;
-  padding: 72px;
-  gap: 10%;
+
+  max-width: 1280px;
+  margin: 40px auto;
 
   > section {
+    margin: 72px;
     width: 50%;
 
     img {
@@ -44,6 +45,7 @@ export const Container = styled.section`
     }
 
     > div {
+      margin: 72px;
       display: flex;
       gap: 0.5rem;
 
@@ -77,6 +79,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin: 72px;
 
     input, textarea {
       border-radius: 0.5rem;
