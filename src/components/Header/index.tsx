@@ -11,10 +11,10 @@ function Header() {
       <img src={menuIcon} alt="" />
       <HeaderNavigation>
         <ul>
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Projetos</li>
-          <li>Contato</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#form__contact">Contato</a></li>
         </ul>
       </HeaderNavigation>
     </HeaderContainer>

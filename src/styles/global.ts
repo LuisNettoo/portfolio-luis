@@ -38,6 +38,10 @@ export const GlobalStyles = createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section {

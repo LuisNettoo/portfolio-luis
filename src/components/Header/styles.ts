@@ -12,8 +12,13 @@ export const HeaderContainer = styled.header`
 
   margin-bottom: 15px;
 
+
   > img {
     display: none;
+  }
+
+  a {
+    color: var(--text-primary);
   }
 
   @media only screen and (max-width: 768px) {

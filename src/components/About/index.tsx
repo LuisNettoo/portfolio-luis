@@ -13,7 +13,7 @@ import reactIcon from "../../assets/logo-react.svg"
 function About() {
   return (
     <>
-    <AboutContainer>
+    <AboutContainer id="about">
       <section>
         <h1>Olá, Eu sou Luis</h1>
         <h2>Desenvolvedor Front-end</h2>
