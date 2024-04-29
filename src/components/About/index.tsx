@@ -21,7 +21,7 @@ function About() {
       
         <div>
             <a href="https://drive.google.com/uc?export=download&id=1HpokcbpN0hRu5_c5bo8dP6chaMuobIk4"><img src={readCvIcon} alt="Papel de curriculo" />Curriculo</a>
-            <a href="#">Entre em contato <img src={arrowRightIcon} alt="Seta para a direita" /></a>
+            <a href="#form__contact">Entre em contato <img src={arrowRightIcon} alt="Seta para a direita" /></a>
         </div>
       </section>
 
