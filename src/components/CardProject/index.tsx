@@ -1,6 +1,5 @@
 import { CardContainer } from "./styles"
 
-import placeholderImg from "../../assets/Placeholder.svg"
 import logoReactIcon from "../../assets/logo-react.svg"
 
 interface CardProjectProps {
